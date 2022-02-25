@@ -19,7 +19,7 @@ DEFAULT_SEARCH_MARKUP = [
                      InlineKeyboardButton("Go Inline", switch_inline_query="")],
                     [InlineKeyboardButton("Search Anime", switch_inline_query_current_chat="!a "),
                      InlineKeyboardButton("GO Inline", switch_inline_query_current_chat="!a ")],
-                    [InlineKeyboardButton("Join: @AnteikuCafeChats", url="https://t.me/AnteikuCafeChats")]
+                    [InlineKeyboardButton("Join: Anteiku Chats", url="https://t.me/AnteikuCafeChats")]
                 ]
 
 
@@ -241,7 +241,7 @@ async def inline_handlers(_, inline: InlineQuery):
                                          f"__Uploaded by {torrentList[i]['UploadedBy']}__\n"
                                          f"__Uploaded {torrentList[i]['DateUploaded']}__\n"
                                          f"__Last Checked {torrentList[i]['LastChecked']}__\n\n"
-                                         f"**Magnet:**\n`{torrentList[i]['Magnet']}`\n\nPowered By @AHToolsBot",
+                                         f"**Magnet:**\n`{torrentList[i]['Magnet']}`\n\nPowered By @TeamxVortex",
                             parse_mode="Markdown"
                         ),
                         reply_markup=InlineKeyboardMarkup(
